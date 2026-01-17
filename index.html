@@ -6,32 +6,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+  :root {
+    --old-rose: #D97F8B;
+    --redline-red: #EE1C25;
+    --sage-green: #ADB680;
+    --forest-green: #2D4739;
+    --warm-beige: #E0CFC3;
+  }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: #ffffff;
-    color: #222;
+    background: var(--warm-beige);
+    color: var(--forest-green);
     line-height: 1.6;
   }
 
   .container {
-    max-width: 900px;
+    max-width: 960px;
     margin: auto;
     padding: 24px;
   }
 
   h1, h2 {
-    color: #b40000;
     margin-top: 32px;
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
+    color: var(--redline-red);
   }
 
   h2 {
     font-size: 24px;
+    color: var(--forest-green);
   }
 
   p {
@@ -43,29 +52,45 @@
   }
 
   .section {
-    margin-bottom: 40px;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+  }
+
+  .soft-section {
+    background: var(--sage-green);
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+  }
+
+  .soft-section h2 {
+    color: var(--forest-green);
   }
 
   .box {
-    background: #f8f8f8;
-    padding: 16px;
-    border-radius: 6px;
-    margin-top: 12px;
+    background: var(--old-rose);
+    color: #ffffff;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 16px;
   }
 
   .pricing {
-    border: 1px solid #ddd;
+    border: 2px solid var(--forest-green);
+    background: #ffffff;
     padding: 16px;
     margin: 12px 0;
-    border-radius: 6px;
+    border-radius: 8px;
   }
 
   .cta {
-    background: #b40000;
+    background: var(--redline-red);
     color: #ffffff;
-    padding: 28px 20px;
+    padding: 32px 24px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 14px;
     margin-top: 50px;
   }
 
@@ -84,7 +109,7 @@
     text-align: center;
     font-size: 14px;
     margin-top: 40px;
-    color: #666;
+    color: var(--forest-green);
   }
 </style>
 </head>
@@ -101,42 +126,36 @@
   <div class="section">
     <h2>Our Services</h2>
     <ul>
-      <li><strong>Hiring Helper</strong> – Helpers from Indonesia, Myanmar & Philippines</li>
-      <li><strong>Work Permit Renewal</strong> – Contract extension & insurance application</li>
-      <li><strong>Direct Hire</strong> – Assistance to bring your chosen helper to Singapore</li>
-      <li><strong>Repatriation Services</strong> – Work permit cancellation & return arrangements</li>
-      <li><strong>Training</strong> – Placement coaches for customised family needs</li>
+      <li>Hiring Helpers from Indonesia, Myanmar & Philippines</li>
+      <li>Work Permit Renewal & Insurance Application</li>
+      <li>Direct Hire Assistance</li>
+      <li>Repatriation Services</li>
+      <li>Customised Training by Placement Coaches</li>
     </ul>
   </div>
 
-  <div class="section">
+  <div class="soft-section">
     <h2>About Us</h2>
+    <p><strong>Right Fit, Not by Chance</strong></p>
+    <p>We match helpers with families based on personality, communication style and household needs.</p>
+
     <div class="box">
-      <p><strong>Right Fit, Not by Chance</strong></p>
-      <p>We use our own matching model to pair helpers with families based on communication style and personality.</p>
-
-      <p><strong>Customised Training</strong></p>
-      <p>Tailored training to suit each household’s exact needs.</p>
-
       <p><strong>Transition & Onboarding Support</strong></p>
-      <p>Guided first-week setup, expectation alignment and regular check-ins.</p>
-
-      <p><strong>Mental Wellness Support</strong></p>
-      <p>Free counselling and ongoing well-being support for helpers.</p>
+      <p>Guided first-week setup, expectation alignment and continuous support.</p>
     </div>
   </div>
 
   <div class="section">
     <h2>Why Choose Redline</h2>
     <ul>
-      <li>Transparent pricing and MOM-compliant processes</li>
-      <li>One-stop service from hiring to deployment</li>
-      <li>Personality matching for better household harmony</li>
-      <li>Replacement policy: 2 replacements within 12 months</li>
+      <li>Transparent pricing & MOM compliance</li>
+      <li>One-stop service from start to finish</li>
+      <li>Personality matching for better harmony</li>
+      <li>2 replacements within 12 months</li>
     </ul>
   </div>
 
-  <div class="section">
+  <div class="soft-section">
     <h2>Pricing & Helper Nationalities</h2>
 
     <div class="pricing">
@@ -153,36 +172,19 @@
       <strong>Philippines</strong><br>
       Starting basic salary: <strong>S$650 onwards</strong>
     </div>
-
-    <p>Levy concession may be granted for eligible households under MOM guidelines.</p>
   </div>
 
   <div class="section">
-    <h2>Our Hiring Process</h2>
+    <h2>Our Process</h2>
     <ol>
-      <li>Share your family requirements and profile</li>
+      <li>Share your family requirements</li>
       <li>Receive shortlisted biodata</li>
-      <li>Interview and screening</li>
-      <li>Confirmation and work permit processing</li>
-      <li>Ongoing support throughout the contract</li>
+      <li>Interview & screening</li>
+      <li>Confirmation & work permit processing</li>
+      <li>Ongoing support throughout contract</li>
     </ol>
   </div>
 
-  <div class="section">
-    <h2>What Our Customers Say</h2>
-    <div class="box">
-      <p><em>“Professional, efficient and attentive. Highly recommended.”</em></p>
-      <p><strong>— Mdm Kaviya Nagaraj</strong></p>
-
-      <p><em>“Matched us with a helper who suited our household perfectly.”</em></p>
-      <p><strong>— Mr LH</strong></p>
-
-      <p><em>“Smooth process with clear explanation of all costs.”</em></p>
-      <p><strong>— Ms Charis</strong></p>
-    </div>
-  </div>
-
-  <!-- CTA SECTION -->
   <div class="cta">
     <h2>Begin Your Hiring Journey Today</h2>
 
@@ -216,5 +218,6 @@
 
 </body>
 </html>
+
 
 
